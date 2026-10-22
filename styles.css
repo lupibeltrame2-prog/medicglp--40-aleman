@@ -190,6 +190,28 @@ body {
   font-size: 0.95rem;
 }
 
+.editorial-figure {
+  margin: 25px 0;
+  text-align: center;
+}
+
+.editorial-image {
+  width: 100%;
+  max-width: 580px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+  display: block;
+  margin: 0 auto;
+}
+
+.image-caption {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-top: 8px;
+  font-style: italic;
+}
+
 .mistake-card {
   background: #f8fafc;
   border: 1px solid var(--border-color);
